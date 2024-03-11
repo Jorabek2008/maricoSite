@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="fixed top-0 left-0 w-full bg-[#000] z-[10]">
         <div className="px-[20px] sm:px-[60px] md:px-[90px] lg:px-[140px] flex items-center justify-between py-[26px]">
           <img src={logo} alt="logo" width={150} />
-          <ul className="md:flex items-center gap-[38px] hidden">
+          <ul className="md:flex items-center gap-[38px] hidden whitespace-nowrap">
             {LINK.map((link, i) => (
               <li key={i}>
                 <Link
@@ -35,7 +35,7 @@ const Navbar = () => {
           </ul>
           <div className="md:flex hidden items-center gap-[24px]">
             <Button href={"/sign-in"} text={"Login"} />
-            <Button text={"Sign Up"} size={"sm"} />
+            <Button text={"Sign Up"} className={'whitespace-nowrap'} size={"sm"} />
           </div>
 
           <div className="block md:hidden">

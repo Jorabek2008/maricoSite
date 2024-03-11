@@ -7,7 +7,7 @@ const Marico = () => {
       <div className="mt-[188px]">
         <PageTitle title={"Why Creators Love Marico"} />
       </div>
-      <div className="flex items-center justify-center gap-[107px] flex-wrap">
+      <div className="flex items-center justify-center gap-[107px] flex-wrap mt-10">
         <div>
           <div className="flex items-center justify-center gap-[8px]">
             <img src={smile} alt="smile img" />
@@ -40,7 +40,7 @@ const Marico = () => {
       <div className="mt-[162px]">
         <p className="text-center font-bold text-primary uppercase">Step 1</p>
         <PageTitle title={"Connect Your Content"} />
-        <p className="text-kulrang text-[20px] md:text-[30px] leading-[30px] md:leading-[45px] text-center">
+        <p className="text-kulrang text-[17px] leading-[20px] md:text-[20px] lg:text-[30px] md:leading-[30px] lg:leading-[45px] text-center px-[20px]">
           Bring all of your content together and get a Homepage that <br />{" "}
           automatically updates whenever you create anywhere online.
         </p>

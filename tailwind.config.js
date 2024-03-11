@@ -21,6 +21,15 @@ export default {
       bold: 700,
       regular: 500,
     },
+    screens: {
+      'sm': '400px',
+      '2sm': '640px',
+      'md': '768px',
+      'lg': '900px',
+      '2lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px'
+    },
   },
   plugins: [],
 }
