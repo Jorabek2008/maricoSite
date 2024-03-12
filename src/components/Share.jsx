@@ -1,5 +1,5 @@
-import { Button } from "react-scroll";
 import { bir, ikki, step3 } from "../images";
+import Button from './../common/Button';
 
 const Share = () => {
   return (
